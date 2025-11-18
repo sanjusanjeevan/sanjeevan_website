@@ -1,48 +1,95 @@
+"use client"
 export default function BlogPage() {
   return (
-    <div className="min-h-screen bg-gray-900 py-20 px-6 text-white">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-black py-20 px-6 text-white">
+      <div className="max-w-5xl mx-auto">
 
-        <h1 className="text-4xl font-bold mb-10 text-center text-white">
+        <h1 className="text-4xl font-bold mb-12 text-center text-white">
           Blog
         </h1>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Blog Card 1 */}
-          <div className="bg-gray-800 shadow-md rounded-2xl p-6 hover:shadow-lg transition cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-3 text-white">How I Built My Portfolio in Next.js</h2>
-            <p className="text-gray-300 mb-4">
-              A complete guide on building a modern, responsive personal portfolio using Next.js and Tailwind CSS.
-            </p>
-            <button className="text-blue-500 font-medium hover:text-blue-400 transition">Read More →</button>
+        <div className="grid md:grid-cols-2 gap-10">
+
+          {/* 🔥 Blog Card 1 */}
+          <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
+            <img
+              src="/images/blog1.jpg"
+              alt="Blog 1"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold mb-3">
+                How I Built My Portfolio in Next.js
+              </h2>
+              <p className="text-gray-400 mb-4">
+                A complete guide on building a modern and responsive portfolio using Next.js & Tailwind CSS.
+              </p>
+              <button className="text-blue-500 hover:text-blue-400 transition">
+                Read More →
+              </button>
+            </div>
           </div>
 
-          {/* Blog Card 2 */}
-          <div className="bg-gray-800 shadow-md rounded-2xl p-6 hover:shadow-lg transition cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-3 text-white">Top 5 Tips for UI/UX Design</h2>
-            <p className="text-gray-300 mb-4">
-              Improve your web design skills with these simple and powerful UI/UX principles.
-            </p>
-            <button className="text-blue-500 font-medium hover:text-blue-400 transition">Read More →</button>
+          {/* 🔥 Blog Card 2 */}
+          <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
+            <img
+              src="/images/blog2.jpg"
+              alt="Blog 2"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold mb-3">
+                Top 5 Tips for UI/UX Design
+              </h2>
+              <p className="text-gray-400 mb-4">
+                Improve your web design skills with powerful UI/UX principles you can apply instantly.
+              </p>
+              <button className="text-blue-500 hover:text-blue-400 transition">
+                Read More →
+              </button>
+            </div>
           </div>
 
-          {/* Blog Card 3 */}
-          <div className="bg-gray-800 shadow-md rounded-2xl p-6 hover:shadow-lg transition cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-3 text-white">Why Choose Next.js for Web Apps?</h2>
-            <p className="text-gray-300 mb-4">
-              Learn why Next.js is the best framework for fast, SEO-friendly, and scalable applications.
-            </p>
-            <button className="text-blue-500 font-medium hover:text-blue-400 transition">Read More →</button>
+          {/* 🔥 Blog Card 3 */}
+          <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
+            <img
+              src="/images/blog3.jpg"
+              alt="Blog 3"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold mb-3">
+                Why Choose Next.js for Web Apps?
+              </h2>
+              <p className="text-gray-400 mb-4">
+                Learn why Next.js is the best JS framework for speed, SEO, and scalability.
+              </p>
+              <button className="text-blue-500 hover:text-blue-400 transition">
+                Read More →
+              </button>
+            </div>
           </div>
 
-          {/* Blog Card 4 */}
-          <div className="bg-gray-800 shadow-md rounded-2xl p-6 hover:shadow-lg transition cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-3 text-white">Tailwind CSS for Beginners</h2>
-            <p className="text-gray-300 mb-4">
-              A simple introduction to using Tailwind CSS to create beautiful and responsive layouts.
-            </p>
-            <button className="text-blue-500 font-medium hover:text-blue-400 transition">Read More →</button>
+          {/* 🔥 Blog Card 4 */}
+          <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
+            <img
+              src="/images/blog4.jpg"
+              alt="Blog 4"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-semibold mb-3">
+                Tailwind CSS for Beginners
+              </h2>
+              <p className="text-gray-400 mb-4">
+                A simple introduction to using Tailwind CSS and creating responsive UI easily.
+              </p>
+              <button className="text-blue-500 hover:text-blue-400 transition">
+                Read More →
+              </button>
+            </div>
           </div>
+
         </div>
       </div>
     </div>

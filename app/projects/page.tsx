@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+
 export default function Projects() {
   const projectList = [
     {
@@ -6,7 +8,7 @@ export default function Projects() {
       description:
         "A modern e-commerce platform built with Next.js, Tailwind CSS, and Stripe payment integration.",
       image:
-        "https://images.unsplash.com/photo-1607083206973-7d9f1f8b0a3b?auto=format&fit=crop&w=800&q=80",
+        "/ecommerce.jpg",
       link: "#",
     },
     {

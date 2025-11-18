@@ -1,3 +1,5 @@
+"use client"
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-black text-gray-900 dark:text-gray-200 font-sans">
@@ -6,9 +8,9 @@ export default function Home() {
       <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-10 py-16 md:py-28 max-w-7xl mx-auto">
         {/* Text */}
         <div className="max-w-xl space-y-6 text-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
-            Hi, I'm <span className="text-blue-600">Sanjeevan</span>
-          </h1>
+  <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
+    Hi, I'm <span className="text-blue-600">Sanjeevan</span>
+  </h1>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-blue-500">
             Website & Web Application Developer
           </h2>

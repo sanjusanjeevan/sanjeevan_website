@@ -11,7 +11,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg">
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold">
-          <Link href="/">Sanjeevan Dev</Link>
+          <Link href="/">Sanjeevan's website</Link>
         </h1>
 
         {/* Desktop Menu */}
@@ -27,33 +27,37 @@ const Header = () => {
           </Link>
 
           {/* Dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => setOpen(!open)}
-              className="flex items-center gap-1 hover:underline hover:decoration-white transition"
-            >
-              Services ▼
-            </button>
-            {open && (
-              <ul className="absolute mt-2 w-48 bg-white text-black rounded-lg shadow-lg border border-gray-200 animate-fadeIn">
-                <li>
-                  <Link href="/service" className="block px-4 py-2 hover:bg-gray-100" onClick={() => setOpen(false)}>
-                    Service
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/service/real-estate" className="block px-4 py-2 hover:bg-gray-100" onClick={() => setOpen(false)}>
-                    Real Estate
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/service/construction" className="block px-4 py-2 hover:bg-gray-100" onClick={() => setOpen(false)}>
-                    Construction
-                  </Link>
-                </li>
-              </ul>
-            )}
-          </div>
+{/* Dropdown - Hover Only */}
+<div 
+  className="relative group"
+>
+  <button
+    className="flex items-center gap-1 hover:underline hover:decoration-white transition"
+  >
+    Services ▼
+  </button>
+
+  {/* Dropdown Box */}
+  <ul className="
+    absolute hidden group-hover:block 
+    mt-2 w-48 bg-white text-black rounded-lg 
+    shadow-lg border border-gray-200 animate-fadeIn
+  ">
+    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
+      Website Development
+    </li>
+    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
+      Web Application
+    </li>
+    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
+      Logo Design
+    </li>
+    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
+      Card Design
+    </li>
+  </ul>
+</div>
+
 
           <Link href="/blog" className="hover:underline hover:decoration-white transition">Blogs</Link>
           <Link href="/faq" className="hover:underline hover:decoration-white transition">FAQ</Link>

@@ -1,3 +1,4 @@
+"use client"
 export default function FAQ() {
   const faqs = [
     {
@@ -14,7 +15,7 @@ export default function FAQ() {
     },
     {
       q: "How can I contact you for a project?",
-      a: "You can email me anytime at sanjeevan.dev.contact@gmail.com for project discussions or hiring.",
+      a: "You can email me anytime at sanjeevan54274@gmail.com for project discussions or hiring.",
     },
     {
       q: "Do you provide responsive design?",

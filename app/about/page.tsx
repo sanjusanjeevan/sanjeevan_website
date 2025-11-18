@@ -17,7 +17,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=800&q=80"
+              src="sanjeevan.jpg"
               alt="About Developer"
               className="rounded-2xl shadow-xl"
             />
@@ -76,12 +76,19 @@ export default function About() {
           I'm available for freelance projects, collaborations, and part-time roles.
           Let's build something great together.
         </p>
-        <a
-          href="mailto:sanjeevan.dev.contact@gmail.com"
-          className="px-8 py-3 rounded-xl bg-white text-blue-700 font-medium hover:bg-gray-200 transition-all"
-        >
-          Contact Me
-        </a>
+<button
+  onClick={() => {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      window.location.href = "tel:+94757009626";
+    } else {
+      alert("Calling is supported only on mobile phones. Please call manually: 0757009626");
+    }
+  }}
+  className="px-6 py-3 rounded-xl bg-gray-900 text-white hover:bg-gray-800 transition-all dark:bg-white dark:text-black"
+>
+  Contact Me
+</button>
+
       </section>
     </div>
   );
