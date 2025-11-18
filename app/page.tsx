@@ -58,7 +58,7 @@ export default function Home() {
         {/* Hero Image */}
         <div className="mb-10 md:mb-0 flex justify-center md:justify-end">
           <img
-            src="https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80"
+            src="sanjeevan.jpg"
             alt="Developer Desk"
             className="rounded-2xl shadow-xl w-full max-w-sm sm:max-w-md md:max-w-lg"
           />
