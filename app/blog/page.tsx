@@ -13,7 +13,7 @@ export default function BlogPage() {
           {/* 🔥 Blog Card 1 */}
           <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
             <img
-              src="/images/blog1.jpg"
+              src="https://images.unsplash.com/photo-1522199710521-72d69614c702"
               alt="Blog 1"
               className="w-full h-48 object-cover"
             />
@@ -33,7 +33,7 @@ export default function BlogPage() {
           {/* 🔥 Blog Card 2 */}
           <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
             <img
-              src="/images/blog2.jpg"
+              src="https://images.unsplash.com/photo-1506765515384-028b60a970df"
               alt="Blog 2"
               className="w-full h-48 object-cover"
             />
@@ -53,7 +53,7 @@ export default function BlogPage() {
           {/* 🔥 Blog Card 3 */}
           <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
             <img
-              src="/images/blog3.jpg"
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
               alt="Blog 3"
               className="w-full h-48 object-cover"
             />
@@ -73,7 +73,7 @@ export default function BlogPage() {
           {/* 🔥 Blog Card 4 */}
           <div className="bg-zinc-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition-all border border-zinc-800">
             <img
-              src="/images/blog4.jpg"
+              src="blog4.jpg"
               alt="Blog 4"
               className="w-full h-48 object-cover"
             />

@@ -28,35 +28,6 @@ const Header = () => {
 
           {/* Dropdown */}
 {/* Dropdown - Hover Only */}
-<div 
-  className="relative group"
->
-  <button
-    className="flex items-center gap-1 hover:underline hover:decoration-white transition"
-  >
-    Services ▼
-  </button>
-
-  {/* Dropdown Box */}
-  <ul className="
-    absolute hidden group-hover:block 
-    mt-2 w-48 bg-white text-black rounded-lg 
-    shadow-lg border border-gray-200 animate-fadeIn
-  ">
-    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
-      Website Development
-    </li>
-    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
-      Web Application
-    </li>
-    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
-      Logo Design
-    </li>
-    <li className="px-4 py-2 hover:bg-gray-100 cursor-default">
-      Card Design
-    </li>
-  </ul>
-</div>
 
 
           <Link href="/blog" className="hover:underline hover:decoration-white transition">Blogs</Link>
@@ -78,9 +49,6 @@ const Header = () => {
           <Link href="/" className="block hover:underline">Home</Link>
           <Link href="/about" className="block hover:underline">About Us</Link>
           <Link href="/projects" className="block hover:underline">Projects</Link>
-          <Link href="/service" className="block hover:underline">Service</Link>
-          <Link href="/service/real-estate" className="block hover:underline">Real Estate</Link>
-          <Link href="/service/construction" className="block hover:underline">Construction</Link>
           <Link href="/blog" className="block hover:underline">Blogs</Link>
           <Link href="/faq" className="block hover:underline">FAQ</Link>
           <Link href="/contact" className="block hover:underline">Contact</Link>
