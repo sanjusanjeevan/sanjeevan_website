@@ -52,38 +52,40 @@ export default function Footer() {
             ))}
           </ul>
         </div>
+{/* Services */}
+<div>
+  <h3 className="text-white font-semibold mb-4 text-xl">Services</h3>
+  <ul className="space-y-3 text-[15px] font-medium">
+    {[
+      "Web Design",
+      "Development",
+      "SEO",
+      "Card Design",
+      "Logo Design",
+    ].map((srv, idx) => (
+      <li
+        key={idx}
+        className="
+          relative 
+          hover:text-white
+          transition-all duration-300
+          hover:translate-x-1
+          group
+        "
+      >
+        {srv}
+        <span
+          className="
+            absolute left-0 -bottom-0.5 h-[2px] w-0 bg-white 
+            transition-all duration-300 
+            group-hover:w-full
+          "
+        />
+      </li>
+    ))}
+  </ul>
+</div>
 
-        {/* Services */}
-        <div>
-          <h3 className="text-white font-semibold mb-4 text-xl">Services</h3>
-          <ul className="space-y-3 text-[15px] font-medium">
-            {[
-              "Web Design",
-              "Development",
-              "SEO",
-              "Card Design",
-              "Logo Design",
-            ].map((srv, idx) => (
-              <li
-                key={idx}
-                className="
-                  relative inline-block
-                  hover:text-white
-                  transition-all duration-300
-                  hover:translate-x-1
-                "
-              >
-                {srv}
-                <span
-                  className="
-                    absolute left-0 -bottom-0.5 w-0 h-[2px] bg-white transition-all duration-300
-                    hover:w-full
-                  "
-                />
-              </li>
-            ))}
-          </ul>
-        </div>
 
         {/* Contact */}
         <div>
